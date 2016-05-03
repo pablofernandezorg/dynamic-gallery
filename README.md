@@ -20,6 +20,11 @@ checkout.php - PayPal API integrated for photo licensing.
 
 -directory-/REMOVE_IMAGES.php - An Array of image IDs to be removed. 
 
+Example Sub-Galleries
+-----------
+
+track-day&ridge-motorsports-park-date-october-2015-hooked-on-driving-event city-of-angels&exploring-my-hometown-of-los-angeles-date-june-2015
+
 
 Contributions
 -------------
