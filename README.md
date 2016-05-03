@@ -23,7 +23,9 @@ checkout.php - PayPal API integrated for photo licensing.
 Example Sub-Galleries
 -----------
 
-track-day&ridge-motorsports-park-date-october-2015-hooked-on-driving-event city-of-angels&exploring-my-hometown-of-los-angeles-date-june-2015
+track-day&ridge-motorsports-park-date-october-2015-hooked-on-driving-event
+
+city-of-angels&exploring-my-hometown-of-los-angeles-date-june-2015
 
 
 Contributions
