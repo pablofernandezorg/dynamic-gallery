@@ -8,7 +8,7 @@ Additionally, a photo "unpublisher" function is available which will take the pr
 
 Check out my live demo here: http://pablofernandez.com/photography
 
-<img src="GalleryPreview.png" height="300">
+<img src="GalleryPreview.png" height="400">
 
 User Guide
 -----------
