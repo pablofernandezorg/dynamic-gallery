@@ -100,8 +100,6 @@ h2 {
 		<noscript><link rel="stylesheet" type="text/css" href="http://www.pablofernandez.com/photography/admin-image-processing/gallery/css/noJS.css"/></noscript>
 		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
     </head>
-
- 
 	<div id="wrap">
         
            <div id="header">
@@ -158,13 +156,10 @@ h2 {
 				<div id="jcart"><?php $jcart->display_cart();?></div>
 			</div>
 					
-			<!--<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />-->
 
 
         <div class="container">
-		
-			<!-- Codrops top bar -->
-            <div class="codrops-top clearfix">
+	            <div class="codrops-top clearfix">
 
 <?php 
 function truncateString($str, $chars, $to_space, $replacement="") {
@@ -224,7 +219,7 @@ $shortenDirect = str_replace("../", " ", $shortenDirect);
                 </a>
 
                 </span>
-            </div><!--/ Codrops top bar -->
+            </div>
 			
 
 					
@@ -249,6 +244,7 @@ $shortenDirect = str_replace("../", " ", $shortenDirect);
  $PULL_DATE = ucwords($PULL_DATE);
 
 ?>
+
 <?php echo $PULL_TITLE; ?></h1></center>
 
 					<div class="support-note">
@@ -259,7 +255,7 @@ $shortenDirect = str_replace("../", " ", $shortenDirect);
 				
 				<div class="gamma-container gamma-loading" id="gamma-container">
 
-										<ul class="gamma-gallery">
+<ul class="gamma-gallery">
 <?php
 
  $files = glob("thumbnails/*.*");
