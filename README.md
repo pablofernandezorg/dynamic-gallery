@@ -8,6 +8,8 @@ Additionally, a photo "unpublisher" function is available which will take the pr
 
 Check out my live demo here: http://pablofernandez.com/photography
 
+<img src="GalleryPreview.png" height="300">
+
 User Guide
 -----------
 GENERATE_ALBUM_DYNAMICALLY.php - Included in all sub-galleries, this file randomly generates a photo gallery based on the files in the directory, and creates a next album and previous album choice. 
