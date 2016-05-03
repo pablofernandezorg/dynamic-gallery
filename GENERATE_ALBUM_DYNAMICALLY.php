@@ -1,5 +1,4 @@
 <?php
-// If your page calls session_start() be sure to include jcart.php first
 include_once('jcart/jcart.php');
 session_start();
 ?>
