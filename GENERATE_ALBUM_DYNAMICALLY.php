@@ -174,14 +174,19 @@ function truncateString($str, $chars, $to_space, $replacement="") {
 
    return($str . $replacement);
 }
+
+// GRAB DIRECTORY CONTENTS
         $directory = "../";
 	$local = glob($directory . "*", GLOB_ONLYDIR); 
         $randDirect = $local[array_rand($local)]; 
 
+// REMOVE RESTRICTED DIRECTORIES
 while(($randDirect=="../admin-image-processing") || ($randDirect=="../cinematography") || ($randDirect=="../jcart") || ($randDirect=="../family-locked") || ($randDirect=="../non-published") || ($randDirect=="../original") || ($randDirect=="../large") || ($randDirect=="../thumbnails") || ($randDirect=="../nasa-internship-locked") || ($randDirect=="../high-school-locked") || ($randDirect=="../non-published"))
    {
         $randDirect = $local[array_rand($local)]; 
    }
+   
+// REMOVE DIRECTORY IDENTIFIERS
 $shortenDirect = explode("&",$randDirect); 
 $shortenDirect = $shortenDirect['0']; 
 $shortenDirect = str_replace("-", " ", $shortenDirect);
